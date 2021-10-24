@@ -6,8 +6,8 @@ This is the docs for py_machine(https://pypi.org/project/py-machine-The-Hexagon/
 ## py_machine.Level(width, height)
 this creates a level object which you can add and remove cells from
 
-# py_machine.Level.__repr__(self)
-it returns the level code for that level object
+# py_machine.Level.repr(self)
+it returns the level code for that level object, repr is what happens when you call print(py_machine.Level)
 
 # py_machine.Level.add_cell(self, cell)
 puts a cell into its ```self.cells``` list
