@@ -60,3 +60,6 @@ decodes a base 74 number
 
 ## py_machine.b74intencode(text)
 encodes a base 74 number
+
+## py_machine.code_to_level(code)
+turns a V1 level code into a level object and returns the level
